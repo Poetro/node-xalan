@@ -1,0 +1,26 @@
+{
+    "name": "xalan"
+  , "version": "0.1.0"
+  , "main": "./build/default/node-expat"
+  , "description": "NodeJS bindings for Apache Xalan."
+  , "scripts" : {
+      "install": "node-waf configure build"
+    , "update": "node-waf build"
+  }
+  , "dependencies": []
+  , "repositories": [{
+      "type": "git"
+    , "path": "git://github.com/Zenithar/node-xalan.git"
+  }]
+  , "homepage": "http://github.com/Zenithar/node-xalan"
+  , "maintainers": [{
+        "name": "Zenithar"
+      , "web": "http://www.zenithar.org/"
+  }]
+  , "contributors": [{
+        "name": "Poetro"
+      , "email": "poetro@poetro.hu"
+      , "web": "http://poetro.hu/"
+  }]
+  , "engine": "node"
+}
